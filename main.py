@@ -9,7 +9,7 @@ class Game(arcade.Window):
         self.simulation = obj.Simulation()
 
     def on_update(self, delta_time):
-        pass
+        pass  # self.simulation.update(delta_time)
 
     def on_draw(self):
         self.clear()
